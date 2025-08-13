@@ -1,0 +1,143 @@
+2025-08-13T17:01:51.760+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Starting CustomerApplication using Java 17.0.5 with PID 12816 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:01:51.763+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:01:51.827+09:00  INFO 12816 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:01:52.356+09:00  INFO 12816 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:01:52.365+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:01:52.366+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:01:52.369+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:01:52.370+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:01:52.370+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:01:52.467+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:01:52.493+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Started CustomerApplication in 1.223 seconds (process running for 1.758)
+2025-08-13T17:01:52.500+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : -----------------------
+2025-08-13T17:01:52.502+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:01:52.503+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:01:52.504+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : CustomerService test - dao : class org.iclass.spring_2di.component.CustomerDao
+2025-08-13T17:01:52.505+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : CustomerController test - service : class org.iclass.spring_2di.component.CustomerService 
+2025-08-13T17:01:52.506+09:00  INFO 12816 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : service message : HI~
+2025-08-13T17:02:09.252+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 11736 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:02:09.259+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:02:09.330+09:00  INFO 11736 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:02:10.003+09:00  INFO 11736 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:02:10.011+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:02:10.012+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:02:10.014+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:02:10.015+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:02:10.017+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:02:10.132+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:02:10.169+09:00  INFO 11736 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.478 seconds (process running for 2.028)
+2025-08-13T17:03:17.917+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Starting CustomerApplication using Java 17.0.5 with PID 15016 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:03:17.920+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:03:17.993+09:00  INFO 15016 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:03:18.522+09:00  INFO 15016 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : []
+2025-08-13T17:03:18.534+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:03:18.535+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:03:18.537+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:03:18.538+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:03:18.540+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:03:18.621+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:03:18.639+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Started CustomerApplication in 1.284 seconds (process running for 1.677)
+2025-08-13T17:03:18.647+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : -----------------------
+2025-08-13T17:03:18.649+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:03:18.649+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:03:18.649+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : CustomerService test - dao : class org.iclass.spring_2di.component.CustomerDao
+2025-08-13T17:03:18.650+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : CustomerController test - service : class org.iclass.spring_2di.component.CustomerService 
+2025-08-13T17:03:18.651+09:00  INFO 15016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : service message : HI~
+2025-08-13T17:03:26.099+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Starting CustomerApplication using Java 17.0.5 with PID 10008 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:03:26.102+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:03:26.162+09:00  INFO 10008 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:03:26.747+09:00  INFO 10008 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:03:26.754+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:03:26.755+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:03:26.757+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:03:26.759+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:03:26.760+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:03:26.847+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:03:26.876+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Started CustomerApplication in 1.302 seconds (process running for 1.742)
+2025-08-13T17:03:26.882+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : -----------------------
+2025-08-13T17:03:26.882+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:03:26.883+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:03:26.884+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : CustomerService test - dao : class org.iclass.spring_2di.component.CustomerDao
+2025-08-13T17:03:26.884+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : CustomerController test - service : class org.iclass.spring_2di.component.CustomerService 
+2025-08-13T17:03:26.885+09:00  INFO 10008 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : service message : HI~
+2025-08-13T17:08:08.261+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Starting CustomerApplication using Java 17.0.5 with PID 9540 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:08:08.265+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:08:08.328+09:00  INFO 9540 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:08:08.848+09:00  INFO 9540 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:08:08.856+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:08:08.857+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:08:08.860+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:08:08.863+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:08:08.866+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:08:08.943+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:08:08.961+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Started CustomerApplication in 1.255 seconds (process running for 1.645)
+2025-08-13T17:08:08.968+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : -----------------------
+2025-08-13T17:08:08.970+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:08:08.970+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:08:08.971+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : CustomerService test - dao : class org.iclass.spring_2di.component.CustomerDao
+2025-08-13T17:08:08.972+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : CustomerController test - service : class org.iclass.spring_2di.component.CustomerService 
+2025-08-13T17:08:08.972+09:00  INFO 9540 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : service message : HI~
+2025-08-13T17:37:22.277+09:00  INFO 10408 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Starting CustomerApplication using Java 17.0.5 with PID 10408 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:37:22.280+09:00  INFO 10408 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:37:22.345+09:00  INFO 10408 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:37:23.039+09:00  WARN 10408 --- [spring_2di] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'buyDao' defined in file [C:\Users\C104\Downloads\spring_2di\target\classes\org\iclass\spring_2di\component\BuyDao.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'java.util.List<java.lang.String>' available: expected single matching bean but found 2: foodBean,shopBean
+2025-08-13T17:37:23.050+09:00  INFO 10408 --- [spring_2di] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-13T17:37:23.081+09:00 ERROR 10408 --- [spring_2di] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.iclass.spring_2di.component.BuyDao required a single bean, but 2 were found:
+	- foodBean: defined by method 'list' in class path resource [org/iclass/spring_2di/component/BuyConfig.class]
+	- shopBean: defined by method 'list2' in class path resource [org/iclass/spring_2di/component/BuyConfig.class]
+
+This may be due to missing parameter name information
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+Ensure that your compiler is configured to use the '-parameters' flag.
+You may need to update both your build tool settings as well as your IDE.
+(See https://github.com/spring-projects/spring-framework/wiki/Spring-Framework-6.1-Release-Notes#parameter-name-retention)
+
+
+2025-08-13T17:37:54.556+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Starting CustomerApplication using Java 17.0.5 with PID 12104 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:37:54.560+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:37:54.618+09:00  INFO 12104 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:37:55.212+09:00  INFO 12104 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:37:55.222+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:37:55.223+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:37:55.225+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:37:55.226+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:37:55.227+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:37:55.320+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:37:55.343+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Started CustomerApplication in 1.367 seconds (process running for 1.892)
+2025-08-13T17:37:55.349+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : -----------------------
+2025-08-13T17:37:55.349+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:37:55.350+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:37:55.351+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : CustomerService test - dao : class org.iclass.spring_2di.component.CustomerDao
+2025-08-13T17:37:55.351+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : CustomerController test - service : class org.iclass.spring_2di.component.CustomerService 
+2025-08-13T17:37:55.352+09:00  INFO 12104 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : service message : HI~
+2025-08-13T17:38:07.919+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Starting CustomerApplication using Java 17.0.5 with PID 3716 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\Users\C104\Downloads\spring_2di)
+2025-08-13T17:38:07.932+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:38:08.015+09:00  INFO 3716 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:38:08.587+09:00  INFO 3716 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [이마트, 홈플러스, GS25, CU]
+2025-08-13T17:38:08.596+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:38:08.597+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:38:08.600+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:38:08.601+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:38:08.602+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:38:08.698+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:38:08.721+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : Started CustomerApplication in 1.531 seconds (process running for 1.994)
+2025-08-13T17:38:08.730+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerApplication      : -----------------------
+2025-08-13T17:38:08.732+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:38:08.733+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDao     : CustomerDao setter - groups : [user, admin, manager] 
+2025-08-13T17:38:08.734+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : CustomerService test - dao : class org.iclass.spring_2di.component.CustomerDao
+2025-08-13T17:38:08.734+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : CustomerController test - service : class org.iclass.spring_2di.component.CustomerService 
+2025-08-13T17:38:08.735+09:00  INFO 3716 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : service message : HI~

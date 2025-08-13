@@ -1,0 +1,780 @@
+2025-08-13T14:51:14.141+09:00  INFO 11048 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 11048 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:51:14.148+09:00  INFO 11048 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:51:14.221+09:00  INFO 11048 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:51:14.823+09:00  INFO 11048 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:51:14.848+09:00  INFO 11048 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.277 seconds (process running for 1.791)
+2025-08-13T14:51:33.917+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 10964 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:51:33.921+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:51:33.982+09:00  INFO 10964 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:51:34.509+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:51:34.537+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.156 seconds (process running for 1.603)
+2025-08-13T14:51:34.542+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T14:51:34.545+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T14:51:34.545+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T14:51:34.546+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T14:51:34.549+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T14:51:34.550+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T14:51:34.551+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T14:51:34.553+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T14:51:34.553+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T14:51:34.554+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T14:51:34.554+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T14:51:34.555+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T14:51:34.555+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T14:51:34.556+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T14:51:34.556+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T14:51:34.557+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T14:51:34.557+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T14:51:34.558+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T14:51:34.558+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T14:51:34.558+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T14:51:34.559+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T14:51:34.559+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T14:51:34.560+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T14:51:34.560+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T14:51:34.561+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T14:51:34.561+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T14:51:34.562+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T14:51:34.562+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T14:51:34.563+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T14:51:34.563+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T14:51:34.565+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T14:51:34.567+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T14:51:34.568+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T14:51:34.568+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T14:51:34.570+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T14:51:34.570+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T14:51:34.570+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T14:51:34.571+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T14:51:34.571+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T14:51:34.572+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T14:51:34.572+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T14:51:34.572+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T14:51:34.573+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T14:51:34.573+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T14:51:34.573+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T14:51:34.574+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T14:51:34.574+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T14:51:34.575+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T14:51:34.575+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T14:51:34.575+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T14:51:34.576+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T14:51:34.576+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T14:51:34.577+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T14:51:34.578+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T14:51:34.578+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T14:51:34.578+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T14:51:34.579+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T14:51:34.579+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T14:51:34.579+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T14:51:34.582+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T14:51:34.583+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T14:51:34.583+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T14:51:34.584+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T14:51:34.585+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T14:51:34.585+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T14:51:34.586+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T14:51:34.587+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T14:51:34.587+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T14:51:34.588+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T14:51:34.588+09:00  INFO 10964 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manger]
+2025-08-13T14:55:37.601+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 15272 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:55:37.605+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:55:37.679+09:00  INFO 15272 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:55:38.278+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:55:38.310+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.283 seconds (process running for 1.676)
+2025-08-13T14:55:38.320+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T14:55:38.331+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T14:55:38.334+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T14:55:38.338+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T14:55:38.346+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T14:55:38.348+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T14:55:38.349+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T14:55:38.350+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T14:55:38.351+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T14:55:38.353+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T14:55:38.354+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T14:55:38.355+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T14:55:38.355+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T14:55:38.355+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T14:55:38.356+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T14:55:38.357+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T14:55:38.359+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T14:55:38.359+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T14:55:38.359+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T14:55:38.360+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T14:55:38.360+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T14:55:38.361+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T14:55:38.361+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T14:55:38.361+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T14:55:38.362+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T14:55:38.362+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T14:55:38.362+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T14:55:38.363+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T14:55:38.363+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T14:55:38.364+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T14:55:38.364+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T14:55:38.365+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T14:55:38.365+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T14:55:38.365+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T14:55:38.366+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T14:55:38.366+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T14:55:38.366+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T14:55:38.366+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T14:55:38.367+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T14:55:38.367+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T14:55:38.367+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T14:55:38.368+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T14:55:38.369+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T14:55:38.370+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T14:55:38.370+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T14:55:38.370+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T14:55:38.371+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T14:55:38.371+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T14:55:38.372+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T14:55:38.372+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T14:55:38.372+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T14:55:38.374+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T14:55:38.375+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T14:55:38.375+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T14:55:38.376+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T14:55:38.376+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T14:55:38.376+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T14:55:38.377+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T14:55:38.377+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T14:55:38.378+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T14:55:38.378+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T14:55:38.378+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T14:55:38.378+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T14:55:38.379+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T14:55:38.379+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T14:55:38.380+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T14:55:38.380+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T14:55:38.380+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T14:55:38.381+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T14:55:38.381+09:00  INFO 15272 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T14:57:06.637+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 14672 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:57:06.640+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:57:06.701+09:00  INFO 14672 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:57:07.231+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:57:07.250+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.198 seconds (process running for 1.635)
+2025-08-13T14:57:07.256+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T14:57:07.261+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T14:57:07.262+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T14:57:07.263+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T14:57:07.263+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T14:57:07.264+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T14:57:07.265+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T14:57:07.266+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T14:57:07.267+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T14:57:07.268+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T14:57:07.268+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T14:57:07.269+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T14:57:07.269+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T14:57:07.270+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T14:57:07.270+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T14:57:07.272+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T14:57:07.272+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T14:57:07.273+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T14:57:07.274+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T14:57:07.274+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T14:57:07.277+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T14:57:07.279+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T14:57:07.280+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T14:57:07.284+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T14:57:07.284+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T14:57:07.285+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T14:57:07.285+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T14:57:07.286+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T14:57:07.286+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T14:57:07.287+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T14:57:07.287+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T14:57:07.288+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T14:57:07.289+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T14:57:07.290+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T14:57:07.291+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T14:57:07.291+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T14:57:07.292+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T14:57:07.294+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T14:57:07.297+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T14:57:07.298+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T14:57:07.299+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T14:57:07.300+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T14:57:07.300+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T14:57:07.301+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T14:57:07.301+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T14:57:07.303+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T14:57:07.303+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T14:57:07.304+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T14:57:07.304+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T14:57:07.305+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T14:57:07.305+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T14:57:07.306+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T14:57:07.306+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T14:57:07.306+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T14:57:07.307+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T14:57:07.309+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T14:57:07.311+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T14:57:07.313+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T14:57:07.315+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T14:57:07.317+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T14:57:07.318+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T14:57:07.318+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T14:57:07.319+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T14:57:07.319+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T14:57:07.319+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T14:57:07.320+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T14:57:07.320+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T14:57:07.320+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T14:57:07.321+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T14:57:07.321+09:00  INFO 14672 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T14:58:13.605+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 7440 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:58:13.608+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:58:13.668+09:00  INFO 7440 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:58:14.137+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T14:58:14.218+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:58:14.240+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.281 seconds (process running for 1.687)
+2025-08-13T14:58:14.246+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T14:58:14.251+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T14:58:14.252+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T14:58:14.252+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T14:58:14.253+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T14:58:14.253+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T14:58:14.254+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T14:58:14.254+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T14:58:14.255+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T14:58:14.255+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T14:58:14.255+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T14:58:14.256+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T14:58:14.257+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T14:58:14.257+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T14:58:14.258+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T14:58:14.258+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T14:58:14.258+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T14:58:14.259+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T14:58:14.259+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T14:58:14.260+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T14:58:14.260+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T14:58:14.261+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T14:58:14.262+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T14:58:14.263+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T14:58:14.263+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T14:58:14.264+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T14:58:14.264+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T14:58:14.264+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T14:58:14.265+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T14:58:14.266+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T14:58:14.267+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T14:58:14.267+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T14:58:14.268+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T14:58:14.268+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T14:58:14.268+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T14:58:14.269+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T14:58:14.269+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T14:58:14.271+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T14:58:14.271+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T14:58:14.272+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T14:58:14.272+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T14:58:14.272+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T14:58:14.273+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T14:58:14.273+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T14:58:14.274+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T14:58:14.274+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T14:58:14.274+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T14:58:14.275+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T14:58:14.275+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T14:58:14.276+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T14:58:14.277+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T14:58:14.277+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T14:58:14.278+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T14:58:14.278+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T14:58:14.278+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T14:58:14.279+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T14:58:14.279+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T14:58:14.280+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T14:58:14.280+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T14:58:14.280+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T14:58:14.281+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T14:58:14.282+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T14:58:14.282+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T14:58:14.283+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T14:58:14.283+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T14:58:14.284+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T14:58:14.285+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T14:58:14.285+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T14:58:14.286+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T14:58:14.286+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T14:58:14.287+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T14:58:14.287+09:00  INFO 7440 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T14:58:41.406+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 11900 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:58:41.410+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:58:41.470+09:00  INFO 11900 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:58:42.038+09:00  INFO 11900 --- [spring_2di] [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static methods: public static void org.iclass.spring_2di.Spring2diApplication.main(java.lang.String[])
+2025-08-13T14:58:42.044+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T14:58:42.146+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:58:42.178+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.362 seconds (process running for 1.823)
+2025-08-13T14:58:42.188+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T14:58:42.191+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T14:58:42.193+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T14:58:42.193+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T14:58:42.194+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T14:58:42.195+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T14:58:42.196+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T14:58:42.197+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T14:58:42.198+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T14:58:42.198+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T14:58:42.199+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T14:58:42.200+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T14:58:42.202+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T14:58:42.203+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T14:58:42.204+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T14:58:42.207+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T14:58:42.208+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T14:58:42.209+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T14:58:42.209+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T14:58:42.210+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T14:58:42.210+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T14:58:42.211+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T14:58:42.211+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T14:58:42.211+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T14:58:42.212+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T14:58:42.212+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T14:58:42.213+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T14:58:42.213+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T14:58:42.214+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T14:58:42.215+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T14:58:42.215+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T14:58:42.215+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T14:58:42.216+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T14:58:42.216+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T14:58:42.218+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T14:58:42.218+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T14:58:42.220+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T14:58:42.220+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T14:58:42.221+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T14:58:42.223+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T14:58:42.223+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T14:58:42.224+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T14:58:42.224+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T14:58:42.225+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T14:58:42.225+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T14:58:42.226+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T14:58:42.226+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T14:58:42.227+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T14:58:42.227+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T14:58:42.227+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T14:58:42.228+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T14:58:42.228+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T14:58:42.228+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T14:58:42.229+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T14:58:42.229+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T14:58:42.230+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T14:58:42.230+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T14:58:42.231+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T14:58:42.231+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T14:58:42.232+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T14:58:42.232+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T14:58:42.232+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T14:58:42.233+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T14:58:42.233+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T14:58:42.234+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T14:58:42.234+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T14:58:42.235+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T14:58:42.236+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T14:58:42.236+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T14:58:42.236+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T14:58:42.237+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T14:58:42.237+09:00  INFO 11900 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:02:58.430+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 13212 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T15:02:58.433+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:02:58.486+09:00  INFO 13212 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:02:59.009+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:02:59.126+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:02:59.167+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.303 seconds (process running for 1.714)
+2025-08-13T15:02:59.174+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T15:02:59.177+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T15:02:59.178+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T15:02:59.178+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T15:02:59.179+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T15:02:59.179+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T15:02:59.180+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T15:02:59.180+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T15:02:59.180+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T15:02:59.181+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T15:02:59.181+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T15:02:59.181+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T15:02:59.182+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T15:02:59.182+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T15:02:59.183+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T15:02:59.183+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T15:02:59.184+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T15:02:59.185+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T15:02:59.185+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T15:02:59.186+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T15:02:59.186+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T15:02:59.187+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T15:02:59.188+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T15:02:59.189+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T15:02:59.191+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T15:02:59.193+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T15:02:59.194+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T15:02:59.196+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T15:02:59.196+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T15:02:59.197+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T15:02:59.197+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T15:02:59.197+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T15:02:59.198+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T15:02:59.198+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T15:02:59.199+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T15:02:59.199+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T15:02:59.200+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T15:02:59.200+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T15:02:59.201+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T15:02:59.201+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T15:02:59.201+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T15:02:59.202+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T15:02:59.202+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T15:02:59.202+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T15:02:59.203+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T15:02:59.203+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T15:02:59.204+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T15:02:59.204+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T15:02:59.205+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T15:02:59.205+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T15:02:59.205+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T15:02:59.206+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T15:02:59.207+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T15:02:59.207+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T15:02:59.208+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T15:02:59.209+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T15:02:59.210+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T15:02:59.210+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T15:02:59.210+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T15:02:59.211+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T15:02:59.211+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T15:02:59.211+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T15:02:59.212+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T15:02:59.212+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T15:02:59.212+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T15:02:59.212+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T15:02:59.213+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T15:02:59.213+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T15:02:59.214+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T15:02:59.214+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:02:59.214+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:02:59.215+09:00  INFO 13212 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:03:34.521+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 12016 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T15:03:34.524+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:03:34.585+09:00  INFO 12016 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:03:35.047+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:03:35.129+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:03:35.148+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.201 seconds (process running for 1.665)
+2025-08-13T15:03:35.153+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T15:03:35.156+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T15:03:35.157+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T15:03:35.157+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T15:03:35.158+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T15:03:35.159+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T15:03:35.159+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T15:03:35.160+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T15:03:35.161+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T15:03:35.162+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T15:03:35.162+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T15:03:35.163+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T15:03:35.163+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T15:03:35.164+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T15:03:35.165+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T15:03:35.167+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T15:03:35.167+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T15:03:35.168+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T15:03:35.168+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T15:03:35.169+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T15:03:35.169+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T15:03:35.170+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T15:03:35.170+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T15:03:35.170+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T15:03:35.171+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T15:03:35.171+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T15:03:35.172+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T15:03:35.172+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T15:03:35.172+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T15:03:35.173+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T15:03:35.173+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T15:03:35.174+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T15:03:35.174+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T15:03:35.175+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T15:03:35.175+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T15:03:35.176+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T15:03:35.177+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T15:03:35.178+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T15:03:35.178+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T15:03:35.178+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T15:03:35.179+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T15:03:35.179+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T15:03:35.180+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T15:03:35.180+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T15:03:35.180+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T15:03:35.181+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T15:03:35.183+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T15:03:35.183+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T15:03:35.184+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T15:03:35.184+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T15:03:35.184+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T15:03:35.185+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T15:03:35.185+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T15:03:35.185+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T15:03:35.186+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T15:03:35.186+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T15:03:35.187+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T15:03:35.187+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T15:03:35.188+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T15:03:35.188+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T15:03:35.188+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T15:03:35.189+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T15:03:35.189+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T15:03:35.189+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T15:03:35.190+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T15:03:35.190+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T15:03:35.190+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T15:03:35.191+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T15:03:35.191+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T15:03:35.191+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:03:35.192+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:03:35.192+09:00  INFO 12016 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:22:28.132+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 12544 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T15:22:28.135+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:22:28.192+09:00  INFO 12544 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:22:28.696+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:22:28.697+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : end
+2025-08-13T15:22:28.780+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:22:28.798+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.217 seconds (process running for 1.61)
+2025-08-13T15:22:28.806+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T15:22:28.810+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T15:22:28.810+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T15:22:28.811+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T15:22:28.812+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T15:22:28.812+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T15:22:28.813+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T15:22:28.813+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T15:22:28.814+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T15:22:28.814+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T15:22:28.814+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T15:22:28.815+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T15:22:28.815+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T15:22:28.816+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T15:22:28.816+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T15:22:28.817+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T15:22:28.817+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T15:22:28.818+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T15:22:28.818+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T15:22:28.818+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T15:22:28.819+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T15:22:28.819+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T15:22:28.819+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T15:22:28.820+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T15:22:28.820+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T15:22:28.821+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T15:22:28.821+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T15:22:28.822+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T15:22:28.822+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T15:22:28.822+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T15:22:28.823+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T15:22:28.823+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T15:22:28.824+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T15:22:28.824+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T15:22:28.824+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T15:22:28.825+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T15:22:28.826+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T15:22:28.827+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T15:22:28.827+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T15:22:28.828+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T15:22:28.828+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T15:22:28.828+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T15:22:28.829+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T15:22:28.829+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T15:22:28.830+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T15:22:28.830+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T15:22:28.831+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T15:22:28.832+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T15:22:28.833+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T15:22:28.833+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T15:22:28.834+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T15:22:28.834+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T15:22:28.834+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T15:22:28.835+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T15:22:28.835+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T15:22:28.835+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T15:22:28.836+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T15:22:28.837+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T15:22:28.837+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T15:22:28.837+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T15:22:28.838+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T15:22:28.838+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T15:22:28.838+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T15:22:28.839+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T15:22:28.839+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T15:22:28.839+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T15:22:28.839+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T15:22:28.840+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T15:22:28.840+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T15:22:28.840+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:22:28.841+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:22:28.841+09:00  INFO 12544 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:23:49.992+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 8496 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T15:23:49.996+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:23:50.067+09:00  INFO 8496 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:23:50.563+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:23:50.564+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : end
+2025-08-13T15:23:50.659+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:23:50.689+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.295 seconds (process running for 1.745)
+2025-08-13T15:23:50.694+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T15:23:50.699+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T15:23:50.702+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T15:23:50.705+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T15:23:50.707+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T15:23:50.708+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T15:23:50.709+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T15:23:50.710+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T15:23:50.710+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T15:23:50.711+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T15:23:50.711+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T15:23:50.712+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T15:23:50.714+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T15:23:50.715+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T15:23:50.719+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T15:23:50.721+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T15:23:50.724+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T15:23:50.726+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T15:23:50.726+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T15:23:50.727+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T15:23:50.728+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T15:23:50.728+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T15:23:50.729+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T15:23:50.729+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T15:23:50.730+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T15:23:50.731+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T15:23:50.732+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T15:23:50.733+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T15:23:50.734+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T15:23:50.735+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T15:23:50.736+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T15:23:50.739+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T15:23:50.739+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T15:23:50.740+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T15:23:50.741+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T15:23:50.742+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T15:23:50.743+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T15:23:50.743+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T15:23:50.744+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T15:23:50.744+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T15:23:50.745+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T15:23:50.745+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T15:23:50.746+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T15:23:50.747+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T15:23:50.748+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T15:23:50.748+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T15:23:50.749+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T15:23:50.750+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T15:23:50.751+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T15:23:50.752+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T15:23:50.753+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T15:23:50.754+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T15:23:50.754+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T15:23:50.755+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T15:23:50.755+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T15:23:50.756+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T15:23:50.756+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T15:23:50.757+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T15:23:50.757+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T15:23:50.758+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T15:23:50.758+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T15:23:50.759+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T15:23:50.760+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T15:23:50.760+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T15:23:50.760+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T15:23:50.761+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T15:23:50.762+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T15:23:50.762+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T15:23:50.763+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T15:23:50.763+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:23:50.766+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:23:50.769+09:00  INFO 8496 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:43:34.368+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 7484 (C:\class250615\spring_workspace\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T15:43:34.373+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:43:34.440+09:00  INFO 7484 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:43:34.903+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:43:34.904+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : end
+2025-08-13T15:43:34.989+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:43:35.012+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.179 seconds (process running for 1.562)
+2025-08-13T15:43:35.017+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2025-08-13T15:43:35.021+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2025-08-13T15:43:35.022+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2025-08-13T15:43:35.023+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerProcessor
+2025-08-13T15:43:35.024+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.context.event.internalEventListenerFactory
+2025-08-13T15:43:35.024+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring2diApplication
+2025-08-13T15:43:35.025+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2025-08-13T15:43:35.025+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerController
+2025-08-13T15:43:35.025+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerDAo
+2025-08-13T15:43:35.026+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : customerService
+2025-08-13T15:43:35.027+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2025-08-13T15:43:35.027+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2025-08-13T15:43:35.028+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : propertySourcesPlaceholderConfigurer
+2025-08-13T15:43:35.028+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration
+2025-08-13T15:43:35.029+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : forceAutoProxyCreatorToUseClassProxying
+2025-08-13T15:43:35.029+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2025-08-13T15:43:35.029+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+2025-08-13T15:43:35.030+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationAvailability
+2025-08-13T15:43:35.030+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2025-08-13T15:43:35.031+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2025-08-13T15:43:35.032+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.internalConfigurationPropertiesBinder
+2025-08-13T15:43:35.033+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.BoundConfigurationProperties
+2025-08-13T15:43:35.033+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter
+2025-08-13T15:43:35.034+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+2025-08-13T15:43:35.034+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : lifecycleProcessor
+2025-08-13T15:43:35.034+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties
+2025-08-13T15:43:35.035+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2025-08-13T15:43:35.035+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2025-08-13T15:43:35.035+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration
+2025-08-13T15:43:35.037+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties
+2025-08-13T15:43:35.038+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor
+2025-08-13T15:43:35.039+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+2025-08-13T15:43:35.040+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileWatcher
+2025-08-13T15:43:35.040+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslPropertiesSslBundleRegistrar
+2025-08-13T15:43:35.040+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : sslBundleRegistry
+2025-08-13T15:43:35.041+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties
+2025-08-13T15:43:35.042+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration
+2025-08-13T15:43:35.042+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskExecutorBuilder
+2025-08-13T15:43:35.043+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration
+2025-08-13T15:43:35.043+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskExecutorBuilder
+2025-08-13T15:43:35.044+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration
+2025-08-13T15:43:35.045+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutorAsyncConfigurer
+2025-08-13T15:43:35.045+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration
+2025-08-13T15:43:35.046+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : applicationTaskExecutor
+2025-08-13T15:43:35.046+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration
+2025-08-13T15:43:35.047+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : bootstrapExecutorAliasPostProcessor
+2025-08-13T15:43:35.047+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2025-08-13T15:43:35.048+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2025-08-13T15:43:35.048+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration
+2025-08-13T15:43:35.049+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : threadPoolTaskSchedulerBuilder
+2025-08-13T15:43:35.049+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration
+2025-08-13T15:43:35.050+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : simpleAsyncTaskSchedulerBuilder
+2025-08-13T15:43:35.050+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2025-08-13T15:43:35.050+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2025-08-13T15:43:35.051+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration
+2025-08-13T15:43:35.051+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : restartingClassPathChangedEventListener
+2025-08-13T15:43:35.051+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathFileSystemWatcher
+2025-08-13T15:43:35.052+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : classPathRestartStrategy
+2025-08-13T15:43:35.052+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : fileSystemWatcherFactory
+2025-08-13T15:43:35.054+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : conditionEvaluationDeltaLoggingListener
+2025-08-13T15:43:35.055+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$LiveReloadConfiguration
+2025-08-13T15:43:35.056+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServer
+2025-08-13T15:43:35.056+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : optionalLiveReloadServer
+2025-08-13T15:43:35.057+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : liveReloadServerEventListener
+2025-08-13T15:43:35.057+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration
+2025-08-13T15:43:35.057+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
+2025-08-13T15:43:35.058+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 Äá ÀÌ¸§ : org.springframework.aop.config.internalAutoProxyCreator
+2025-08-13T15:43:35.059+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ÇöÀç ÄáÀÇ °¹¼ö : 67°³
+2025-08-13T15:43:35.060+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : ----------------------------------------------------------
+2025-08-13T15:43:35.062+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]
+2025-08-13T15:43:35.063+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : class org.iclass.spring_2di.component.CustomerDAo
+2025-08-13T15:43:35.064+09:00  INFO 7484 --- [spring_2di] [restartedMain] o.i.spring_2di.component.CustomerDAo     : [user, admin, manager]

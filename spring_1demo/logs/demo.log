@@ -1,0 +1,137 @@
+2025-08-13T11:43:19.878+09:00  INFO 11044 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 11044 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace\spring_1demo)
+2025-08-13T11:43:19.881+09:00  INFO 11044 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T11:43:19.952+09:00  INFO 11044 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T11:43:20.403+09:00  WARN 11044 --- [spring_1demo] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'newDemoController' defined in file [C:\class250615\spring_workspace\spring_1demo\target\classes\org\iclass\spring_1demo\spring\NewDemoController.class]: Failed to instantiate [org.iclass.spring_1demo.spring.NewDemoController]: Constructor threw exception
+2025-08-13T11:43:20.413+09:00  INFO 11044 --- [spring_1demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-13T11:43:20.457+09:00 ERROR 11044 --- [spring_1demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'newDemoController' defined in file [C:\class250615\spring_workspace\spring_1demo\target\classes\org\iclass\spring_1demo\spring\NewDemoController.class]: Failed to instantiate [org.iclass.spring_1demo.spring.NewDemoController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.iclass.spring_1demo.Spring1demoApplication.main(Spring1demoApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.iclass.spring_1demo.spring.NewDemoController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 23 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.s" is null
+	at org.iclass.spring_1demo.spring.NewDemoController.<init>(NewDemoController.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 25 common frames omitted
+---------------------------------------------------------------------------------------
+2025-08-13T11:47:49.687+09:00  INFO 8808 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 8808 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace\spring_1demo)
+2025-08-13T11:47:49.690+09:00  INFO 8808 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T11:47:49.747+09:00  INFO 8808 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T11:47:50.191+09:00  WARN 8808 --- [spring_1demo] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'newDemoController' defined in file [C:\class250615\spring_workspace\spring_1demo\target\classes\org\iclass\spring_1demo\spring\NewDemoController.class]: Failed to instantiate [org.iclass.spring_1demo.spring.NewDemoController]: Constructor threw exception
+2025-08-13T11:47:50.202+09:00  INFO 8808 --- [spring_1demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-13T11:47:50.238+09:00 ERROR 8808 --- [spring_1demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'newDemoController' defined in file [C:\class250615\spring_workspace\spring_1demo\target\classes\org\iclass\spring_1demo\spring\NewDemoController.class]: Failed to instantiate [org.iclass.spring_1demo.spring.NewDemoController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.iclass.spring_1demo.Spring1demoApplication.main(Spring1demoApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.iclass.spring_1demo.spring.NewDemoController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 23 common frames omitted鞓れ爠 11:50 2025-08-13鞓れ爠 11:50 2025-08-13鞓れ爠 11:50 2025-08-13
+Caused by: java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "this.s" is null
+	at org.iclass.spring_1demo.spring.NewDemoController.<init>(NewDemoController.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 25 common frames omitted
+
+2025-08-13T11:50:58.866+09:00  INFO 8708 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 8708 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace\spring_1demo)
+2025-08-13T11:50:58.869+09:00  INFO 8708 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T11:50:58.923+09:00  INFO 8708 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T11:50:59.369+09:00  INFO 8708 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : kdjlkdjflaksdjflk
+2025-08-13T11:50:59.370+09:00  INFO 8708 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : e1b1
+2025-08-13T11:50:59.379+09:00  WARN 8708 --- [spring_1demo] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'newDemoController': Unsatisfied dependency expressed through field 's': No qualifying bean of type 'org.iclass.spring_1demo.spring.NewDemoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-08-13T11:50:59.392+09:00  INFO 8708 --- [spring_1demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-13T11:50:59.435+09:00 ERROR 8708 --- [spring_1demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field s in org.iclass.spring_1demo.spring.NewDemoController required a bean of type 'org.iclass.spring_1demo.spring.NewDemoService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.iclass.spring_1demo.spring.NewDemoService' in your configuration.
+
+2025-08-13T11:58:48.928+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 10624 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace\spring_1demo)
+2025-08-13T11:58:48.932+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T11:58:48.991+09:00  INFO 10624 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T11:58:49.452+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 积己磊 - 
+2025-08-13T11:58:49.459+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 积己磊 - 
+2025-08-13T11:58:49.462+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 积己磊 - Hi,SpringBoot!!
+2025-08-13T11:58:49.573+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T11:58:49.600+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.261 seconds (process running for 1.982)
+2025-08-13T11:58:49.606+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 积己磊 - 
+2025-08-13T11:58:49.607+09:00  INFO 10624 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+

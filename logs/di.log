@@ -1,0 +1,55 @@
+2025-08-13T16:59:38.418+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 4324 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T16:59:38.423+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T16:59:38.495+09:00  INFO 4324 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T16:59:39.158+09:00  INFO 4324 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T16:59:39.173+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T16:59:39.175+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T16:59:39.182+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T16:59:39.191+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T16:59:39.192+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T16:59:39.336+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T16:59:39.360+09:00  INFO 4324 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.495 seconds (process running for 2.146)
+2025-08-13T17:01:19.465+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 9756 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T17:01:19.468+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:01:19.588+09:00  INFO 9756 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:01:20.144+09:00  INFO 9756 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:01:20.153+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:01:20.154+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:01:20.156+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:01:20.157+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:01:20.157+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:01:20.251+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:01:20.271+09:00  INFO 9756 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.431 seconds (process running for 1.821)
+2025-08-13T17:01:25.260+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 13856 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T17:01:25.264+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:01:25.337+09:00  INFO 13856 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:01:25.995+09:00  INFO 13856 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:01:26.007+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:01:26.008+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:01:26.010+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:01:26.011+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:01:26.011+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:01:26.109+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:01:26.137+09:00  INFO 13856 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.491 seconds (process running for 2.046)
+2025-08-13T17:01:38.624+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 9236 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T17:01:38.627+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:01:38.688+09:00  INFO 9236 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:01:39.427+09:00  INFO 9236 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:01:39.447+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:01:39.448+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:01:39.450+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:01:39.451+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:01:39.452+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:01:39.553+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:01:39.584+09:00  INFO 9236 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.577 seconds (process running for 2.046)
+2025-08-13T17:01:43.348+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Starting Spring2diApplication using Java 17.0.5 with PID 9072 (C:\Users\C104\Downloads\spring_2di\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T17:01:43.353+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T17:01:43.460+09:00  INFO 9072 --- [spring_2di] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T17:01:44.178+09:00  INFO 9072 --- [spring_2di] [restartedMain] org.iclass.spring_2di.component.BuyDao   : BuyDao 생성자 - sales : [라면, 과자, 탄산음료, 과일]
+2025-08-13T17:01:44.187+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.s.component.CustomerService          : setDao 실행 완료!!
+2025-08-13T17:01:44.188+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.s.component.CustomerController       : setService 실행 완료!!
+2025-08-13T17:01:44.190+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductDao      : ProductDao 기본생성자 - 
+2025-08-13T17:01:44.191+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.spring_2di.component.ProductService  : ProductService 생성자 - ProductDao message : welcome!!
+2025-08-13T17:01:44.192+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.s.component.ProductController        : ProductController 생성자 - service : class org.iclass.spring_2di.component.ProductService
+2025-08-13T17:01:44.317+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T17:01:44.343+09:00  INFO 9072 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : Started Spring2diApplication in 1.601 seconds (process running for 2.092)

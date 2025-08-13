@@ -1,0 +1,84 @@
+2025-08-13T13:41:32.809+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 15184 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T13:41:32.818+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T13:41:32.891+09:00  INFO 15184 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T13:41:33.448+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T13:41:33.454+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 持失切 - 
+2025-08-13T13:41:33.456+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 持失切 - Hi,SpringBoot!!
+2025-08-13T13:41:33.547+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T13:41:33.570+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.432 seconds (process running for 1.896)
+2025-08-13T13:41:33.576+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T13:41:33.578+09:00  INFO 15184 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+
+2025-08-13T14:00:43.972+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 4408 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:00:44.085+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:00:44.231+09:00  INFO 4408 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:00:44.837+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:00:44.843+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 持失切 - 
+2025-08-13T14:00:44.845+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 持失切 - Hi,SpringBoot!!
+2025-08-13T14:00:44.967+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:00:44.992+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.914 seconds (process running for 2.487)
+2025-08-13T14:00:45.001+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:00:45.002+09:00  INFO 4408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+
+2025-08-13T14:16:29.389+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 6408 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:16:29.392+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:16:29.463+09:00  INFO 6408 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:16:30.039+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:16:30.049+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 持失切 - 
+2025-08-13T14:16:30.053+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 持失切 - Hi,SpringBoot!!
+2025-08-13T14:16:30.165+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:16:30.204+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.422 seconds (process running for 2.013)
+2025-08-13T14:16:30.210+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:16:30.214+09:00  INFO 6408 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+
+2025-08-13T14:45:58.466+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 13360 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:45:58.470+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:45:58.529+09:00  INFO 13360 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:45:59.029+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:45:59.035+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 持失切 - 
+2025-08-13T14:45:59.039+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 持失切 - Hi,SpringBoot!!
+2025-08-13T14:45:59.146+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:45:59.172+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.274 seconds (process running for 1.855)
+2025-08-13T14:45:59.178+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:45:59.179+09:00  INFO 13360 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+
+2025-08-13T14:50:54.957+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 332 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T14:50:54.963+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T14:50:55.041+09:00  INFO 332 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T14:50:55.532+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:50:55.537+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 持失切 - 
+2025-08-13T14:50:55.539+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 持失切 - Hi,SpringBoot!!
+2025-08-13T14:50:55.627+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T14:50:55.648+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.26 seconds (process running for 1.64)
+2025-08-13T14:50:55.653+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T14:50:55.654+09:00  INFO 332 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+
+2025-08-13T15:42:08.814+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 15008 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T15:42:08.817+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:42:08.887+09:00  INFO 15008 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:42:09.427+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T15:42:09.435+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 持失切 - 
+2025-08-13T15:42:09.437+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 持失切 - Hi,SpringBoot!!
+2025-08-13T15:42:09.557+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:42:09.585+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.377 seconds (process running for 1.92)
+2025-08-13T15:42:09.590+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T15:42:09.592+09:00  INFO 15008 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+
+2025-08-13T15:43:18.956+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Starting Spring1demoApplication using Java 17.0.5 with PID 13056 (C:\class250615\spring_workspace\spring_1demo\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-13T15:43:18.959+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:43:19.016+09:00  INFO 13056 --- [spring_1demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:43:19.470+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T15:43:19.476+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.i.spring_1demo.spring.NewDemoService   : NewDemoService 持失切 - 
+2025-08-13T15:43:19.479+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.iclass.spring_1demo.spring.NewDemoDao  : NewDemoDao 持失切 - Hi,SpringBoot!!
+2025-08-13T15:43:19.576+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:43:19.596+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : Started Spring1demoApplication in 1.163 seconds (process running for 1.605)
+2025-08-13T15:43:19.601+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.i.s.spring.NewDemoController           : NewDemoController 持失切 - 
+2025-08-13T15:43:19.603+09:00  INFO 13056 --- [spring_1demo] [restartedMain] o.i.spring_1demo.Spring1demoApplication  : 
+ dbc334ad9b3cd9bf938ae8938fd9839e9 - class org.iclass.spring_1demo.spring.NewDemoController 
+

@@ -12,7 +12,7 @@ public class CustomerApplication {
 
   public static void main(String[] args) {
     ApplicationContext context = SpringApplication.run(CustomerApplication.class, args);
-
+    // CustomerDao dao2 = (CustomerDao) context.getBean("CustomerDao");
     log.info("-----------------------");
     CustomerDao dao = context.getBean(CustomerDao.class);
     dao.setGroups();

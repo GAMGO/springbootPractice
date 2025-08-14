@@ -1,11 +1,12 @@
-package org.iclass.sping3maybatis.mapper;
+package org.iclass.spring_3mybatis.mapper;
 
 import java.util.List;
 import java.util.Map;
 
-import org.iclass.sping3maybatis.dto.BuyDto;
+import org.apache.ibatis.annotations.Mapper;
+import org.iclass.spring_3mybatis.dto.*;
 
-
+@Mapper
 public interface BuyMapper {
 
     List<BuyDto> selectAll();
@@ -18,9 +19,8 @@ public interface BuyMapper {
 
     int selectSum(String pcode);
 
-    List<CustomerBuyDto> selectSaleByCustomer(String customer_id);
+    List<CustomerDto> selectSaleByCustomer(String customer_id);
 
-    // count 집계 함수
     Map<String, Integer> selectCountByYear(String year);
 
     List<Map<String, Object>> selectAllCountByYear();

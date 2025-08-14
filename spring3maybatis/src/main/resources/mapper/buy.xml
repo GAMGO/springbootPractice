@@ -4,7 +4,7 @@
    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.iclass.spring_3mybatis.mapper.BuyMapper">
 
-  <select id="selectSaleByCustomer" parameterType="string" resultType="CustomerBuyVo">
+  <select id="selectSaleByCustomer" parameterType="string" resultType="CustomerDto">
 SELECT tp.PCODE,tp.PNAME, tp.PRICE , tp.PRICE*tb.QUANTITY as money
       from TBL_PRODUCT tp
       join TBL_BUY tb
@@ -28,13 +28,13 @@ SELECT tp.PCODE,tp.PNAME, tp.PRICE , tp.PRICE*tb.QUANTITY as money
 	<select id="selectAll">
 	select * from tbl_buy
 </select>
-	<select id="selectByUser" parameterType="string" resultType="BuyVo">
+	<select id="selectByUser" parameterType="string" resultType="BuyDto">
 		select * from tbl_buy where customer_id=#{customer_id}
 	</select>
-    	<select id="selectByStuff" parameterType="string" resultType="BuyVo">
+    	<select id="selectByStuff" parameterType="string" resultType="BuyDto">
 		select * from tbl_buy where pcode = #{pcode}
 	</select>
-		<select id="selectByYears" parameterType="string" resultType="BuyVo">
+		<select id="selectByYears" parameterType="string" resultType="BuyDto">
 		select * from tbl_buy where to_char(buy_date,'yyyy')=#{buy_date}
 	</select>
     	<select id="selectSum" parameterType="string" resultType="int">

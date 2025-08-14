@@ -1,4 +1,4 @@
-package org.iclass.sping3maybatis.dto;
+package org.iclass.spring_3mybatis.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

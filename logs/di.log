@@ -864,3 +864,388 @@
 2025-08-14T10:45:45.618+09:00  INFO 11052 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties
 2025-08-14T10:45:45.619+09:00  INFO 11052 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 	 bean 이름 : org.springframework.aop.config.internalAutoProxyCreator
 2025-08-14T10:45:45.620+09:00  INFO 11052 --- [spring_2di] [restartedMain] o.i.spring_2di.Spring2diApplication      : 현재 bean 의 갯수 : 75
+2025-08-14T10:52:57.232+09:00  INFO 10168 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : Starting Sping_3mybatisApplication using Java 17.0.5 with PID 10168 (C:\class250615\spring_workspace\spring3maybatis\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-14T10:52:57.235+09:00  INFO 10168 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T10:52:57.298+09:00  INFO 10168 --- [sping3maybatis] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\C104\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.7.0.25.01\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/C104/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/oraclepki.jar
+2025-08-14T10:52:57.299+09:00  INFO 10168 --- [sping3maybatis] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T10:52:57.884+09:00  WARN 10168 --- [sping3maybatis] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.iclass.spring_3mybatis]' package. Please check your configuration.
+2025-08-14T10:52:58.370+09:00  WARN 10168 --- [sping3maybatis] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+2025-08-14T10:52:58.382+09:00  INFO 10168 --- [sping3maybatis] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-14T10:52:58.421+09:00 ERROR 10168 --- [sping3maybatis] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.iclass.spring_3mybatis.Sping_3mybatisApplication.main(Sping_3mybatisApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 25 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.5.jar:3.0.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 28 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	... 36 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:105) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:141) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:133) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.19.jar:3.5.19]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:132) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:101) ~[mybatis-3.5.19.jar:3.5.19]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.19.jar:3.5.19]
+	... 44 common frames omitted
+
+2025-08-14T10:53:19.326+09:00  INFO 3224 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : Starting Sping_3mybatisApplication using Java 17.0.5 with PID 3224 (C:\class250615\spring_workspace\spring3maybatis\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-14T10:53:19.330+09:00  INFO 3224 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T10:53:19.390+09:00  INFO 3224 --- [sping3maybatis] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\C104\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.7.0.25.01\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/C104/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/oraclepki.jar
+2025-08-14T10:53:19.391+09:00  INFO 3224 --- [sping3maybatis] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T10:53:19.932+09:00  WARN 3224 --- [sping3maybatis] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.iclass.spring_3mybatis]' package. Please check your configuration.
+2025-08-14T10:53:20.390+09:00  WARN 3224 --- [sping3maybatis] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'class path resource [mapper/buy.xml]'
+2025-08-14T10:53:20.399+09:00  INFO 3224 --- [sping3maybatis] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-14T10:53:20.454+09:00 ERROR 3224 --- [sping3maybatis] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'class path resource [mapper/buy.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.iclass.spring_3mybatis.Sping_3mybatisApplication.main(Sping_3mybatisApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'class path resource [mapper/buy.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 25 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'class path resource [mapper/buy.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.5.jar:3.0.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 28 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'class path resource [mapper/buy.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	... 36 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:105) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:141) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:133) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.19.jar:3.5.19]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:132) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:101) ~[mybatis-3.5.19.jar:3.5.19]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.19.jar:3.5.19]
+	... 44 common frames omitted
+
+2025-08-14T11:08:22.530+09:00  INFO 9932 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : Starting Sping_3mybatisApplication using Java 17.0.5 with PID 9932 (C:\class250615\spring_workspace\spring3maybatis\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-14T11:08:22.535+09:00  INFO 9932 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T11:08:22.609+09:00  INFO 9932 --- [sping3maybatis] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\C104\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.7.0.25.01\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/C104/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/oraclepki.jar
+2025-08-14T11:08:22.613+09:00  INFO 9932 --- [sping3maybatis] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T11:08:23.318+09:00  WARN 9932 --- [sping3maybatis] [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.iclass.spring_3mybatis]' package. Please check your configuration.
+2025-08-14T11:08:23.853+09:00  WARN 9932 --- [sping3maybatis] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+2025-08-14T11:08:23.866+09:00  INFO 9932 --- [sping3maybatis] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-14T11:08:23.902+09:00 ERROR 9932 --- [sping3maybatis] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.iclass.spring_3mybatis.Sping_3mybatisApplication.main(Sping_3mybatisApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 25 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.5.jar:3.0.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 28 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	... 36 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:105) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:141) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:133) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.19.jar:3.5.19]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'CustomerBuyVo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:132) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:101) ~[mybatis-3.5.19.jar:3.5.19]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: CustomerBuyVo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.19.jar:3.5.19]
+	... 44 common frames omitted
+
+2025-08-14T11:17:28.737+09:00  INFO 4204 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : Starting Sping_3mybatisApplication using Java 17.0.5 with PID 4204 (C:\class250615\spring_workspace\spring3maybatis\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-14T11:17:28.742+09:00  INFO 4204 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T11:17:28.826+09:00  INFO 4204 --- [sping3maybatis] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\C104\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.7.0.25.01\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/C104/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/oraclepki.jar
+2025-08-14T11:17:28.828+09:00  INFO 4204 --- [sping3maybatis] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T11:17:29.900+09:00  WARN 4204 --- [sping3maybatis] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+2025-08-14T11:17:29.913+09:00  INFO 4204 --- [sping3maybatis] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-14T11:17:30.039+09:00 ERROR 4204 --- [sping3maybatis] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.iclass.spring_3mybatis.Sping_3mybatisApplication.main(Sping_3mybatisApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 25 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.5.jar:3.0.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 28 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'ButDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: ButDto
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	... 36 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'ButDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: ButDto
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:105) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:141) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:133) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.19.jar:3.5.19]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'ButDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: ButDto
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:132) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:101) ~[mybatis-3.5.19.jar:3.5.19]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: ButDto
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:226) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.19.jar:3.5.19]
+	... 44 common frames omitted
+
+2025-08-14T11:17:48.362+09:00  INFO 6956 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : Starting Sping_3mybatisApplication using Java 17.0.5 with PID 6956 (C:\class250615\spring_workspace\spring3maybatis\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-14T11:17:48.365+09:00  INFO 6956 --- [sping3maybatis] [restartedMain] o.i.s.Sping_3mybatisApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T11:17:48.430+09:00  INFO 6956 --- [sping3maybatis] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\C104\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.7.0.25.01\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/C104/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.7.0.25.01/oraclepki.jar
+2025-08-14T11:17:48.432+09:00  INFO 6956 --- [sping3maybatis] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-14T11:17:49.669+09:00  WARN 6956 --- [sping3maybatis] [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\customer.xml]'
+2025-08-14T11:17:49.681+09:00  INFO 6956 --- [sping3maybatis] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-14T11:17:49.719+09:00 ERROR 6956 --- [sping3maybatis] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\customer.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.iclass.spring_3mybatis.Sping_3mybatisApplication.main(Sping_3mybatisApplication.java:9) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\customer.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:200) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:89) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:169) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 25 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\customer.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:695) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:572) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:712) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.5.jar:3.0.5]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:172) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 28 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\customer.xml]'. Cause: java.lang.IllegalArgumentException: Mapped Statements collection already contains key org.iclass.spring_3mybatis.mapper.BuyMapper.selectAll. please check file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml] and file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\customer.xml]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:125) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:98) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:693) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	... 36 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection already contains key org.iclass.spring_3mybatis.mapper.BuyMapper.selectAll. please check file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\buy.xml] and file [C:\class250615\spring_workspace\spring3maybatis\target\classes\mapper\customer.xml]
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1158) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.Configuration$StrictMap.put(Configuration.java:1111) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.Configuration.addMappedStatement(Configuration.java:834) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:224) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:120) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:141) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:133) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.19.jar:3.5.19]
+	... 38 common frames omitted
+

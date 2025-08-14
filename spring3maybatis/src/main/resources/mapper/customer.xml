@@ -2,19 +2,19 @@
 <!DOCTYPE mapper
    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="tblcustomer">
-	<select id="selectByPk" parameterType="String" resultType="CustomerVo">
+<mapper namespace="org.iclass.spring_3mybatis.mapper.BuyMapper">
+	<select id="selectByPk" parameterType="String" resultType="CustomerDto">
 		select * from tbl_customer
 		where customer_id=#{customerId}
 	</select>
-	<select id="selectAll" resultType="CustomerVo">
+	<select id="selectAll" resultType="CustomerDto">
 		select * from tbl_customer order by customer_id
 	</select>
-	<insert id = "insert" parameterType="CustomerVo">
+	<insert id = "insert" parameterType="CustomerDto">
 		insert into tbl_customer(customer_id,name,email,age,reg_date) 
                     values (#{customerId}, #{name}, #{email}, #{age}, sysdate)
 	</insert>
-	<update id="update" parameterType="CustomerVo">
+	<update id="update" parameterType="CustomerDto">
 		update tbl_customer 
 		set email = #{email}, age = #{age} 
 		where customer_id = #{customerId}

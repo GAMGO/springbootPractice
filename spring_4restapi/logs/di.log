@@ -5714,3 +5714,12 @@ https://docs.oracle.com/error-help/db/ora-17004/
 2025-08-14T17:43:26.185+09:00  INFO 10108 --- [spring_4restapi] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 2025-08-14T17:43:26.297+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.i.s.Spring_4restapiApplication         : Starting Spring_4restapiApplication using Java 17.0.5 with PID 10108 (C:\class250615\spring_workspace\spring_4restapi\target\classes started by C104 in C:\class250615\spring_workspace\spring_4restapi)
 2025-08-14T17:43:26.320+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.i.s.Spring_4restapiApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T17:43:26.692+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-14T17:43:26.693+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-14T17:43:26.693+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14T17:43:26.709+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-14T17:43:26.710+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 355 ms
+2025-08-14T17:43:26.904+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-14T17:43:26.928+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-14T17:43:26.940+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] o.i.s.Spring_4restapiApplication         : Started Spring_4restapiApplication in 0.694 seconds (process running for 1290.603)
+2025-08-14T17:43:26.944+09:00  INFO 10108 --- [spring_4restapi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

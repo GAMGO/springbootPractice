@@ -452,3 +452,37 @@ Caused by: java.lang.IllegalArgumentException: Mapped Statements collection alre
 
 2025-08-14T12:11:53.667+09:00  INFO 3864 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-08-14T12:11:53.729+09:00  INFO 3864 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T13:38:47.363+09:00  INFO 13408 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Starting TESTFTEST using Java 17.0.5 with PID 13408 (started by C104 in C:\class250615\spring_workspace\spring3maybatis)
+2025-08-14T13:38:47.366+09:00  INFO 13408 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T13:38:48.759+09:00  INFO 13408 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Started TESTFTEST in 1.837 seconds (process running for 3.171)
+2025-08-14T13:39:29.377+09:00  INFO 9616 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Starting TESTFTEST using Java 17.0.5 with PID 9616 (started by C104 in C:\class250615\spring_workspace\spring3maybatis)
+2025-08-14T13:39:29.379+09:00  INFO 9616 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T13:39:31.342+09:00  INFO 9616 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Started TESTFTEST in 2.398 seconds (process running for 3.511)
+2025-08-14T13:43:45.070+09:00  INFO 2480 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Starting TESTFTEST using Java 17.0.5 with PID 2480 (started by C104 in C:\class250615\spring_workspace\spring3maybatis)
+2025-08-14T13:43:45.073+09:00  INFO 2480 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T13:43:46.447+09:00  INFO 2480 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Started TESTFTEST in 1.847 seconds (process running for 3.035)
+2025-08-14T13:43:47.371+09:00  INFO 2480 --- [sping3maybatis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T13:43:47.379+09:00  WARN 2480 --- [sping3maybatis] [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-08-14T13:43:47.833+09:00  INFO 2480 --- [sping3maybatis] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2e3f324e
+2025-08-14T13:43:47.835+09:00  INFO 2480 --- [sping3maybatis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T13:43:48.038+09:00  INFO 2480 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T13:43:48.052+09:00  INFO 2480 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T13:47:26.165+09:00  INFO 7884 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Starting TESTFTEST using Java 17.0.5 with PID 7884 (started by C104 in C:\class250615\spring_workspace\spring3maybatis)
+2025-08-14T13:47:26.170+09:00  INFO 7884 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T13:47:27.642+09:00  INFO 7884 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Started TESTFTEST in 1.985 seconds (process running for 3.193)
+2025-08-14T13:47:27.672+09:00  INFO 7884 --- [sping3maybatis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T13:47:27.680+09:00  WARN 7884 --- [sping3maybatis] [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-08-14T13:47:28.207+09:00  INFO 7884 --- [sping3maybatis] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@481558ce
+2025-08-14T13:47:28.209+09:00  INFO 7884 --- [sping3maybatis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T13:47:29.475+09:00  INFO 7884 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T13:47:29.503+09:00  INFO 7884 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-14T13:54:45.369+09:00  INFO 10848 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Starting TESTFTEST using Java 17.0.5 with PID 10848 (started by C104 in C:\class250615\spring_workspace\spring3maybatis)
+2025-08-14T13:54:45.371+09:00  INFO 10848 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : No active profile set, falling back to 1 default profile: "default"
+2025-08-14T13:54:46.630+09:00  INFO 10848 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : Started TESTFTEST in 1.68 seconds (process running for 2.884)
+2025-08-14T13:54:46.664+09:00  INFO 10848 --- [sping3maybatis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-14T13:54:46.671+09:00  WARN 10848 --- [sping3maybatis] [main] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-08-14T13:54:47.163+09:00  INFO 10848 --- [sping3maybatis] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@467b0f6e
+2025-08-14T13:54:47.165+09:00  INFO 10848 --- [sping3maybatis] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-14T13:54:48.479+09:00  INFO 10848 --- [sping3maybatis] [main] org.iclass.spring_3mybatis.TESTFTEST     : null
+2025-08-14T13:54:48.514+09:00  INFO 10848 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-14T13:54:48.540+09:00  INFO 10848 --- [sping3maybatis] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -6,7 +6,9 @@ import org.iclass.spring_4restapi.mapper.CustomerMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 @Transactional
 @Service
 public class CustomerService {
@@ -19,6 +21,12 @@ public List<CustomerDto> allCustomer(){
 } 
 public CustomerDto getCustomer(String customerid){
     return mapper.selectByPk(customerid);
+}
+public int delete (String customerid){
+return mapper.delete(customerid);
+}
+public int update(CustomerDto dto){
+    return mapper.update(dto);
 }
 
 }

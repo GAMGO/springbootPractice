@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.iclass</groupId>
-	<artifactId>sping3maybatis</artifactId>
+	<artifactId>spring_4restapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sping3maybatis</name>
+	<name>spring_4restapi</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -63,6 +63,10 @@
 			<version>3.0.5</version>
 			<scope>test</scope>
 		</dependency>
+				<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -93,5 +97,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

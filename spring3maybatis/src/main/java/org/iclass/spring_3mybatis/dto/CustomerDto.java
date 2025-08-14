@@ -16,6 +16,6 @@ public class CustomerDto {
     private final String customerId;
     private final String name;
     private final String email;
-    private final int age;
+    private final Integer age;
     private final Date regDate;
 }

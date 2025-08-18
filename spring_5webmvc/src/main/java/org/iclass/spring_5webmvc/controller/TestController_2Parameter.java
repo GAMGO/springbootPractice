@@ -13,4 +13,9 @@ public class TestController_2Parameter {
         log.info(name);
         log.info("{age}",age);
     }
+    @GetMapping("/listA")
+    public String listA(String name, int age, String address, String gender){
+    log.info("Patameter : {} {} {} {}",name, age, address, gender);
+        return "list";
+    }
 }

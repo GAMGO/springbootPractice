@@ -12,5 +12,8 @@
         http://localhost:8081/list?name=tom&age=23 는 정상출력 <br>
         http://localhost:8081/list?name=tom 은 오류. age는 int로 저장하는데 그 때 내부적으로 Integer.parseInt(문자열) 실행. 파라미터 값은 문자열입니다.
     </P>
+    <p>파라미터가 많은 경우 Query로 계속 연결됨, 파라미터 갯수 만큼 변수를 선언해야하고 너무 많다면 비효율적입니다.<br>
+    따라서 DTO 클래스를 사용합니다. 스프링 부트는 파라미터 이름과 dto 변수명으로 매핑하여 저장합니다.<br>
+    <a href="http://localhost:8081/list?name=tom&age=23&address=서울&gender=male"></a></p>
 </body>
 </html>

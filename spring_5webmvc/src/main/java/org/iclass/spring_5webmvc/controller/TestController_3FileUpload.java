@@ -15,7 +15,7 @@ public class TestController_3FileUpload {
     @PostMapping("/upload")
     public String upload(String title, MultipartFile uploadFile) {
         log.info("파일명 : {}", uploadFile.getOriginalFilename());
-        log.info("파일크기 : {}", uploadFile.getSize());
+        log.info("파일크기 : {} bytes", uploadFile.getSize());
         try {
             if (uploadFile.getSize() != 0) {
                 File path = new File("C:\\Users\\C104\\Downloads" + uploadFile.getOriginalFilename());
@@ -26,4 +26,5 @@ public class TestController_3FileUpload {
         }
         return "redirect:/";
     }
+
 }

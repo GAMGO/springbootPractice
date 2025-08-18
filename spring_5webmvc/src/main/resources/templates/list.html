@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter 연습</title>
+</head>
+<body>
+    <h1>파라미터</h1>
+    <P>
+        터미널의 로그만 확인해주세요.<br>
+        http://localhost:8081/list?name=tom&age=23 는 정상출력 <br>
+        http://localhost:8081/list?name=tom 은 오류. age는 int로 저장하는데 그 때 내부적으로 Integer.parseInt(문자열) 실행. 파라미터 값은 문자열입니다.
+    </P>
+</body>
+</html>

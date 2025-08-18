@@ -1,5 +1,6 @@
 package org.iclass.spring_5webmvc.controller;
 
+import org.iclass.spring_5webmvc.TestDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,5 +18,10 @@ public class TestController_2Parameter {
     public String listA(String name, int age, String address, String gender){
     log.info("Patameter : {} {} {} {}",name, age, address, gender);
         return "list";
+    }
+    @GetMapping ("/listB")
+    public String listB(TestDto dto){
+        log.info("parameter DTO : {}",dto);
+    return "list";
     }
 }

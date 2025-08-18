@@ -45,8 +45,7 @@ public class CustomerRestController {
     }
 
     @PatchMapping("/api/customers/{customerid}")
-    public ResponseEntity<?> update(@PathVariable String customerid, @RequestBody CustomerDto dto,
-            BindingResult bindingResult) {
+    public ResponseEntity<?> update(@PathVariable String customerid, @Valid @RequestBody CustomerDto dto,BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             Map<String, String> er = new HashMap<>();
             bindingResult.getFieldErrors().forEach(err -> {

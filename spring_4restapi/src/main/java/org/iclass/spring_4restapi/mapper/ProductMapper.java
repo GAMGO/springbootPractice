@@ -8,12 +8,13 @@ import org.iclass.spring_4restapi.dto.ProductDto;
 @Mapper
 public interface ProductMapper {
   ProductDto selectByPk(String pcode);
+  List<ProductDto> selectAll();
 
-  List<ProductDto> selectByKeywor(String keyword);
+  List<ProductDto> selectByKeyword(String keyword);
 
   int insert(ProductDto dto);
 
-  int update(ProductDto dot);
+  int update(ProductDto dto);
 
   int delete(String pcode);
 }

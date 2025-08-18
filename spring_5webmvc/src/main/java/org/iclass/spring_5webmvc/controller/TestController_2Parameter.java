@@ -24,4 +24,10 @@ public class TestController_2Parameter {
         log.info("parameter DTO : {}",dto);
     return "list";
     }
+      
+    @PostMapping("/list")
+    public String save (TestDto dto){
+        log.info("paramerte save : {}", dto);
+        return "redirect:/list";
+    }
 }

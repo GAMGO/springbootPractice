@@ -34,6 +34,7 @@ public class CustomerRestController {
             bindingResult.getFieldErrors().forEach(err -> {
                 er.put(err.getField(), err.getDefaultMessage());
             });
+            return ResponseEntity.badRequest().body(er);
         }
         try {
             int r = service.join(dto);

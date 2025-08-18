@@ -6,6 +6,9 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.*;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 
 
@@ -14,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 @AllArgsConstructor
 public class BuyRestController {
     private BuyService service;
+    
     @GetMapping("/api/buy")
     public ResponseEntity <List<BuyDto>>getAll() {
         return ResponseEntity.ok().body(service.all());
@@ -21,6 +25,10 @@ public class BuyRestController {
     @GetMapping("/api/buy/{customer_id}")
     public ResponseEntity <List<BuyDto>> getUser(@PathVariable String customer_id){
     return ResponseEntity.ok().body(service.byUser(customer_id));
+    }
+    @GetMapping("/api/buy/{pcode}")
+    public ResponseEntity <List<BuyDto>> getPcode(@PathVariable String pcode){
+        return ResponseEntity.ok().body(service.byStuff(pcode));
     }
     
     

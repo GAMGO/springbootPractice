@@ -23,6 +23,7 @@ public class CustomerDto {
     @Pattern(regexp = "^[A-Za-z0-9]{4,}$", message = "영문자,숫자 구성 4글자 이상")
     private final String customerId;
     @NotBlank(message = "이름입력필수")
+    @Pattern(regexp = "^[A-Za-z가-힣]{2,}$", message = "문자 2글자 이상")
     private final String name;
     @Email(message = "올바른 이메일 형식 준수")
     private final String email;

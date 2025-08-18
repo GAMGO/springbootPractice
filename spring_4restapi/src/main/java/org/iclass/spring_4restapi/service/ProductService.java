@@ -10,8 +10,8 @@ import lombok.AllArgsConstructor;
 
 
 @AllArgsConstructor
-@Service
 @Transactional
+@Service
 public class ProductService {
 private ProductMapper mapper;
 

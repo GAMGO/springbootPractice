@@ -7,7 +7,7 @@
 		select * from tbl_product where pcode=#{pcode}
 	</select>
 	<select id="selectAll" resultType="ProductDto">
-		select * from tbl_product order by pcategory
+		select * from tbl_product order by pcode
 	</select>
     <select id="search" parameterType="String" resultType="ProductDto">
         select * from tbl_product where pname like '%'||#{kw}||'%'

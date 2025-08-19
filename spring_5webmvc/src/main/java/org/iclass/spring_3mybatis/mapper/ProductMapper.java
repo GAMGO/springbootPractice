@@ -10,6 +10,8 @@ public interface ProductMapper {
   ProductDto selectByPk(String pcode);
 
   List<ProductDto> selectByKeywor(String keyword);
+  
+  List<ProductDto> selectAll();
 
   int insert(ProductDto dto);
 

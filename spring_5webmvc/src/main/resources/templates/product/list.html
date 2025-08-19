@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>키워드 검색</h2>
+    <form action ="list" method="POST">
+        <input type="text" name = "keyword" placeholder="상품 검색" th:value="${keyword}">
+        <button type="submit">검색</button>
+    </form>
     <h3>상품목록</h3>
       <hr />
       <table style="width: 900px; padding: 10px" id="product">
@@ -20,10 +25,12 @@
           <td th:text="${pDto.pcode}"></td>
           <td th:text="${pDto.pcategory}"></td>
           <td th:text="${pDto.pname}"></td>
-          <td th:text="${pDto.price}"></td>
+          <td th:text="${#numbers.formatCurrency(pDto.price)}"></td>
         </tr>
       </table> 
     </div>
+    <a href="search?keyword=라면&page=99">라면과2페이지</a>
+    <a href="search2?pname=라면&price=10000">DTO</a>
     <a href="/">홈페이지</a>
 </body>
 </html>

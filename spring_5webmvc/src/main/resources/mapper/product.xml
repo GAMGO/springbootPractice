@@ -9,8 +9,8 @@
 	<select id="selectAll" resultType="ProductDto">
 		select * from tbl_product order by pcode
 	</select>
-    <select id="search" parameterType="String" resultType="ProductDto">
-        select * from tbl_product where pname like '%'||#{kw}||'%'
+    <select id="searchByKeyword" parameterType="String" resultType="ProductDto">
+        select * from tbl_product where pname like '%'||#{keyword}||'%'
     </select>
 	<insert id = "insert" parameterType="ProductDto">
 		insert into tbl_product(pcode, pcategory, pname,price) 

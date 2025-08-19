@@ -16,7 +16,6 @@ import lombok.extern.slf4j.Slf4j;
 @AllArgsConstructor
 public class TestController_4Attribute {
     private CustomerMapper cMapper;
-    private ProductMapper pMapper;
 
     @GetMapping("customer/list")
     public String list(Model m) {
@@ -33,10 +32,5 @@ public class TestController_4Attribute {
         return "customer/list";
     }
 
-    @GetMapping("/product/list")
-    public String plist(Model pm) {
-        List<ProductDto> pl = pMapper.selectAll();
-        pm.addAttribute("list", pl);
-        return "product/list";
-    }
+
 }

@@ -9,7 +9,7 @@ import org.iclass.spring_3mybatis.dto.ProductDto;
 public interface ProductMapper {
   ProductDto selectByPk(String pcode);
 
-  List<ProductDto> selectByKeywor(String keyword);
+  List<ProductDto> searchByKeyword(String keyword);
   
   List<ProductDto> selectAll();
 

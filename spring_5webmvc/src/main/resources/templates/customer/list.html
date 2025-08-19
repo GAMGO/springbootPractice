@@ -31,6 +31,27 @@
         </ul>
       </li>
     </ul>
+    <div th:if="${cusList} == null">Customer Attribute는 값이 없습니다.</div>
+    <div th:if="${cusList} != null">
+      <h3>customer</h3>
+      <hr />
+      <table style="width: 900px; padding: 10px" id="customer">
+        <tr>
+          <th>customerId</th>
+          <th>name</th>
+          <th>age</th>
+          <th>email</th>
+          <th>가입날짜</th>
+        </tr>
+        <tr th:each="cusDto : ${cusList}">
+          <td th:text="${cusDto.customerId}"></td>
+          <td th:text="${cusDto.name}"></td>
+          <td th:text="${cusDto.age}"></td>
+          <td th:text="${cusDto.email}"></td>
+          <td th:if="${cusDto.regDate != null}" th:text="${#dates.format(cusDto.regDate,'yyyy-MM-dd')}"></td>
+        </tr>
+      </table>
+    </div>
     <a href="/">홈페이지</a>
   </body>
 </html>

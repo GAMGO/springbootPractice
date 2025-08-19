@@ -5,6 +5,8 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
+@AllArgsConstructor
+@Builder
 public class TestDto {
 private String name;
 private int age;

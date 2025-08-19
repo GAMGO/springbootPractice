@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/nav.css" />
     <title>덥다 너무 덥다</title>
   </head>
   <body>
@@ -15,12 +16,14 @@
     </p>
     <ul>
       <li th:text="${page}">애트리뷰트 이름 page로 저장된 데이터 출력</li>
-      <li th:text="${dto.name}">
-        애트리뷰트 이름 dto로 저장된 객체의 name필드 출력
-      </li>
-      <li th:text="${dto.address}">
-        애트리뷰트 이름 dto로 저장된 객체의 address필드 출력
-      </li>
+      <div th:if="${dto!=null}">
+        <li th:text="${dto.name}">
+          애트리뷰트 이름 dto로 저장된 객체의 name필드 출력
+        </li>
+        <li th:text="${dto.address}">
+          애트리뷰트 이름 dto로 저장된 객체의 address필드 출력
+        </li>
+      </div>
       <li th:text="${list}">애트리뷰트 이름 list로 저장된 객체 출력</li>
       <li>
         <ul>
@@ -28,5 +31,6 @@
         </ul>
       </li>
     </ul>
+    <a href="/">홈페이지</a>
   </body>
 </html>

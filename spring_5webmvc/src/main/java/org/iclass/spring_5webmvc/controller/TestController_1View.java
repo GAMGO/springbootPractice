@@ -12,5 +12,9 @@ public class TestController_1View {
     public void login() {
 
     }
+    @GetMapping("/join")
+    public void join(){
+
+    }
 
 }

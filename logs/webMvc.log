@@ -4770,3 +4770,156 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 2025-08-19T15:53:29.953+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : ¤¿¤¾
 2025-08-19T15:53:34.172+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-3] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : kg
 2025-08-19T15:53:40.420+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-5] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : ¾ÆÀÌÆù
+2025-08-19T16:05:51.795+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-3] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:05:52.370+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-5] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:05:52.690+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-7] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:05:52.939+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-9] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:05:53.249+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:05:53.674+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-3] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:05:54.162+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-5] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:06:00.916+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-7] o.i.s.c.TestController_5ModelAttridute   : ModelAtrribute : 
+2025-08-19T16:10:52.983+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-08-19T16:10:52.987+09:00  INFO 8308 --- [spring_5webmvc] [Thread-53] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:10:53.082+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:10:53.084+09:00  INFO 8308 --- [spring_5webmvc] [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-08-19T16:10:53.097+09:00  INFO 8308 --- [spring_5webmvc] [Thread-53] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-08-19T16:10:53.204+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:10:53.205+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:10:53.526+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:10:53.528+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:10:53.528+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:10:53.566+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:10:53.567+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 357 ms
+2025-08-19T16:10:53.628+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:10:53.674+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:10:53.680+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:10:53.685+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.517 seconds (process running for 1603.373)
+2025-08-19T16:10:53.686+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:11:07.421+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:11:07.425+09:00  INFO 8308 --- [spring_5webmvc] [Thread-57] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:11:07.514+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:11:07.611+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:11:07.612+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:11:07.828+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:11:07.829+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:11:07.830+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:11:07.849+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:11:07.851+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 236 ms
+2025-08-19T16:11:07.912+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:11:07.956+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:11:07.963+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:11:07.967+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.391 seconds (process running for 1617.655)
+2025-08-19T16:11:07.969+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:12:35.261+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:12:35.270+09:00  INFO 8308 --- [spring_5webmvc] [Thread-61] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:12:35.345+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:12:35.420+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:12:35.421+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:12:35.654+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:12:35.656+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:12:35.657+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:12:35.675+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:12:35.675+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 251 ms
+2025-08-19T16:12:35.757+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:12:35.890+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:12:35.896+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:12:35.899+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.503 seconds (process running for 1705.587)
+2025-08-19T16:12:35.900+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:12:42.402+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:12:42.405+09:00  INFO 8308 --- [spring_5webmvc] [Thread-65] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:12:42.487+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:12:42.555+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:12:42.556+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:12:42.734+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:12:42.735+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:12:42.735+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:12:42.751+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:12:42.752+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2025-08-19T16:12:42.818+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:12:42.864+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:12:42.872+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:12:42.881+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.346 seconds (process running for 1712.569)
+2025-08-19T16:12:42.884+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:14:01.796+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:14:01.799+09:00  INFO 8308 --- [spring_5webmvc] [Thread-69] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:14:01.866+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:14:01.931+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:14:01.932+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:14:02.089+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:14:02.090+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:14:02.091+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:14:02.105+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:14:02.105+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+2025-08-19T16:14:02.160+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:14:02.200+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:14:02.206+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:14:02.209+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.295 seconds (process running for 1791.897)
+2025-08-19T16:14:02.210+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:14:04.664+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:14:04.667+09:00  INFO 8308 --- [spring_5webmvc] [Thread-73] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:14:04.765+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:14:04.831+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:14:04.831+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:14:04.990+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:14:04.991+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:14:04.991+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:14:05.004+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:14:05.006+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 173 ms
+2025-08-19T16:14:05.083+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:14:05.130+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:14:05.138+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:14:05.143+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.33 seconds (process running for 1794.832)
+2025-08-19T16:14:05.146+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:17:08.875+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-19T16:17:08.876+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-19T16:17:08.877+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-19T16:17:10.034+09:00  WARN 8308 --- [spring_5webmvc] [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-08-19T16:17:39.540+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:17:39.541+09:00  INFO 8308 --- [spring_5webmvc] [Thread-77] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:17:39.587+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:17:39.663+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:17:39.663+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:17:39.927+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:17:39.928+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:17:39.928+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:17:39.944+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:17:39.944+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2025-08-19T16:17:40.009+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:17:40.048+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:17:40.055+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:17:40.058+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.416 seconds (process running for 2009.746)
+2025-08-19T16:17:40.059+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:17:54.721+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:17:54.724+09:00  INFO 8308 --- [spring_5webmvc] [Thread-81] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:17:54.811+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:17:54.881+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:17:54.881+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:17:55.041+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:17:55.042+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:17:55.042+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:17:55.055+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:17:55.056+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 173 ms
+2025-08-19T16:17:55.116+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:17:55.164+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:17:55.174+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:17:55.177+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.313 seconds (process running for 2024.866)
+2025-08-19T16:17:55.178+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:18:01.702+09:00  INFO 8308 --- [spring_5webmvc] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-19T16:18:01.706+09:00  INFO 8308 --- [spring_5webmvc] [Thread-85] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-19T16:18:01.802+09:00  INFO 8308 --- [spring_5webmvc] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-19T16:18:01.880+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Starting Spring5webmvcApplication using Java 17.0.5 with PID 8308 (C:\class250615\spring_workspace\spring_5webmvc\target\classes started by C104 in C:\class250615\spring_workspace)
+2025-08-19T16:18:01.880+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-08-19T16:18:02.066+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-19T16:18:02.067+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-19T16:18:02.067+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-19T16:18:02.081+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-19T16:18:02.081+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 199 ms
+2025-08-19T16:18:02.133+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-08-19T16:18:02.171+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-19T16:18:02.176+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-08-19T16:18:02.180+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] o.i.s.Spring5webmvcApplication           : Started Spring5webmvcApplication in 0.322 seconds (process running for 2031.869)
+2025-08-19T16:18:02.181+09:00  INFO 8308 --- [spring_5webmvc] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-08-19T16:18:02.806+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-19T16:18:02.807+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-19T16:18:02.808+09:00  INFO 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-19T16:18:02.810+09:00  WARN 8308 --- [spring_5webmvc] [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]

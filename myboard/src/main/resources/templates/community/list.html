@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자유게시판</title>
+  </head>
+  <body>
+    <a href = "/">홈페이지</a>
+    <h3>자게</h3>
+    <table class="">
+      <tr>
+        <th>글목록</th>
+        <th>글쓴이</th>
+        <th>제목</th>
+      </tr>
+      <tr th:each="cDto : ${list}">
+        <td th:text="${cDto.idx}"></td>
+        <td th:text="${cDto.writer}"></td>
+        <td th:text="${cDto.title}"></td>
+      </tr>
+    </table>
+  </body>
+</html>
